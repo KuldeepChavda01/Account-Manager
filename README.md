@@ -6,7 +6,7 @@ A robust, frontend-only user management application featuring secure authenticat
 
 ## 🔗 Live Demo
 
-**View the live project here:** [INSERT_YOUR_LIVE_LINK_HERE]
+**View the live project here:** [Click Here](https://acc-management-system.netlify.app)
 
 ---
 
@@ -83,7 +83,7 @@ src/
 1. **Clone the repository:**
 
 ```bash
-git clone [YOUR_GITHUB_REPO_LINK_HERE]
+git clone https://github.com/KuldeepChavda01/Account-Manager.git
 
 ```
 
