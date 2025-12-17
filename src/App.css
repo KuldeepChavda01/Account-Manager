@@ -1,0 +1,167 @@
+nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #2b2d42;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    color: #edf2f4;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+.nav-items li .bi {
+    font-size: 20px;
+    color: #edf2f4;
+}
+
+form,
+.profile {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(141, 153, 174, .25);
+}
+
+form input,
+form label {
+    display: block;
+    color: #2b2d42;
+}
+
+form h1,
+.profile h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #2b2d42;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    margin: 1.5px 0px 15px 0px;
+    font-size: 12px;
+    outline: none;
+    border-radius: 5px;
+    border: 1.25px solid #8d99ae;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #8d99ae;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-eye {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    color: #8d99ae;
+}
+
+form small {
+    display: block;
+    min-height: 14px;
+    line-height: 14px;
+    font-size: 10px;
+    color: rgb(255, 65, 65);
+}
+
+form button {
+    display: block;
+    margin: 0px auto;
+    padding: 1.25px 5px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    color: #edf2f4;
+    background-color: #2b2d42;
+}
+
+form p {
+    margin-top: 5px;
+    text-align: center;
+    color: #8d99ae;
+}
+
+form p a {
+    padding-left: 2.5px;
+    text-decoration: none;
+    color: #2b2d42;
+}
+
+.general-error {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    border-radius: 2.5px;
+    color: #fff;
+    background-color: #8d99ae;
+}
+
+.profile h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #8d99ae;
+}
+
+.profile p {
+    margin: 5px auto;
+    font-weight: 500;
+    color: #2b2d42;
+}
+
+.profile p span {
+    font-weight: 400;
+}
+
+.profile-btn-wrapper,
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.profile button,
+.button-group button {
+    display: block;
+    padding: 1.25px 5px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    color: #8d99ae;
+    border: 1.5px solid #8d99ae;
+    background-color: #fff;
+}
+
+.button-group .update-btn {
+    border: none;
+    color: #edf2f4;
+    background-color: #2b2d42;
+}
